@@ -4,7 +4,7 @@ import Detail from "./detail";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 
-function CarD(props) {
+function Card(props) {
   return (
     <div className="cards">
       <div className="top">
@@ -25,11 +25,11 @@ function CarD(props) {
         </div>
 
         </div>
-        <Detail detailInfo={props.tel} />
+        <Detail detailInfo="public repos" />
         
       </div>
     </div>
   );
 }
 
-export default CarD;
+export default Card;

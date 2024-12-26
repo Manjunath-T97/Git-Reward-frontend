@@ -1,23 +1,15 @@
 
-import CarD from "./card";
+import React from "react";
+import { ProfileCard } from "./ProfileCard";
 
 
 function Profile(object) {
     return (
-      <CarD
-        
-        name={object.name}
-        img={object.img}
-        tel={"Public Repos : "+object.public}
-        link={object.url}
-        flwr={object.follower} 
-        flwng={object.followings}
-      />
-    );
+      <div>
+      
+      <ProfileCard />
+      </div>
+    )
+   
   }
-
-// function Profile(){
-// return createCard();
-// }
-
 export default Profile;
